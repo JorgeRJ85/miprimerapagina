@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <!-- Insertar archivos CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    
+    
+
+    <script src="https://kit.fontawesome.com/3e68605ed6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+
+
+    
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    
+    <div class="container">
+        
+        <header id="encabezado">
+            
+            <div class="logos">
+            
+                <h1><a class="letra" href="index.html"> Web</a></h1>
+                
+            
+            </div>
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars" ></i>
+                </label>
+                <ul class="listap">
+                    <li>Inicio</li>
+                    <li>Acerca de Mi</li>
+                    <li>Trabajos</li>
+                    <li>Servicios</li>
+                    <li>Contacto</li>
+                </ul>
+            </nav>
+        </header>
+
+        <main id="seccion-principal">
+            
+            <section class="seccion-1">
+                <div class="acerca-de">
+                    <h2> Acerca de mi</h2>
+                    <p class="parrafo1">
+                        ¡Bienvenido a mi página! Aquí, aprenderás más sobre mí
+                    </p>
+                    <p class="parrafo2"> Hola! Soy Jorge un desarrolador Java junior y estoy aprendiendo  Html actualmente vivo en Argentina y estoy bucando desarrollarme en el  area de IT</p>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/cascada.jpg" alt="imagen personal">
+                </div>
+    
+            </section>
+
+            
+
+            <section class="seccion-2">
+                <div class="imgenmedio"><img src="img/buzz.jpg" alt="imagen de agua"></div>
+                <footer>
+                    <div class="contenedores">
+                        <div>
+                            <img src="/img/javaa.jpg" alt="">
+                            <p>Estudie Java en La Universidad de la Punta por iniciativa de Argentina Programa 4.0 atraves de Egg</p>
+                        </div>
+                        <div>
+                            <img src="img/htmlest (1).jpg" alt="">
+                            <p>Actualmente estudio Html, Css y JavaScript en Egg</p>
+                            
+                        </div>
+        
+                        <div>
+                            <img src="/img/git.jpg" alt="imagen de git">
+                            <p>Subo cada proyecto que hago en Java a Mi GitHub</p>
+                        </div>
+        
+                    </div>
+                </footer>
+
+                <footer class="formul">
+                    <h1>Contacto</h1>
+                    <p><em>¡Esperamos tu consulta!</em></p>
+                    <form action="" method="get" class="formulario" id="form">
+                        <div class="form-row">
+                            <label for="nombre">Nombre</label>
+                            <input id="nombre" name="nombre" type="text" />
+                          </div>  
+
+                        <div class="form-row">
+                            <label for="email">Email</label>
+                            <input
+                              id="email"
+                              name="email"
+                              type="email"
+                              placeholder="pepe@gmail.com"
+                            />
+                          </div>
+
+                          <div class="form-row">
+                            <label for="mensaje">Mensaje</label>
+                            <textarea id="mensaje" name="mensaje"></textarea>
+                          </div>
+
+                          <div class="form-row">
+                            <button>Enviar</button>
+                          </div>
+
+
+
+                    </form>
+                </footer>    
+
+
+                    <div class="conta">
+                        <h3> Contacto</h3>
+                            <ul>
+                                <h3 class="contactos">
+                                <li><a href="https://www.linkedin.com/in/jorge-riveros-942508299/"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+                                <li><a href="https://github.com/JorgeRJ85"><i class="fa-brands fa-github"></i> GitHub</a></li>
+                                </h3>
+                            </ul>
+
+                    </div>
+                    </div>
+                
+            </section>
+        </main>
+    </div>
+
+    <script src="script2.js" defer></script>
+</body>
+</html>
