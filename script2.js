@@ -1,13 +1,3 @@
-let contenidotitulo = "Nombre de Web";
-let titulo = document.querySelector(".logos .letra");
-titulo.innerHTML= contenidotitulo;
-
-let textoTitulo=titulo.innerText;
-console.log(textoTitulo);
-
-if(textoTitulo=="Nombre de Web"){
-    titulo.innerHTML="Mi Primera Web"
-}
 
 
 
